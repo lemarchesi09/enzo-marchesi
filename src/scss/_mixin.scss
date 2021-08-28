@@ -1,0 +1,44 @@
+@mixin robotoRegular16 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+}
+
+@mixin margin {
+    margin-left: 10.1rem;
+    margin-right: 4.4rem;
+}
+
+@mixin button {
+    border-radius: 2.5rem;
+    background-color: $colorPrimario;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid $colorPrimario;
+    color: $colorSecundario;
+    height: 3.8rem;
+    width: 12.4rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.22px;
+    outline: none;
+    cursor: pointer;
+}
+
+@mixin breakpoint($breakpoint) {
+    @if $breakpoint == "mobile" {
+        @media only screen and (max-width: 576px) {
+            @content;
+        }
+    } @else if $breakpoint == "tablet" {
+        @media only screen and (max-width: 768px) {
+            @content;
+        }
+    } @else if $breakpoint == "desktop" {
+        @media only screen and (max-width: 992px) {
+            @content;
+        }
+    } @else if $breakpoint == "lg-desktop" {
+        @media only screen and (min-width: 992px) {
+            @content;
+        }
+    }
+} 

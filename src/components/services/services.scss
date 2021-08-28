@@ -1,0 +1,108 @@
+.sec3{
+    @extend .section;
+    background-image: url("../../assets/section4-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+}
+.sec3_box{
+    display: flex;
+    padding-top: 144px;
+    padding-right: 400px;
+}
+
+.accordion{
+    width: 669px;
+    height: 64px;
+    background-color: $colorSecundario;
+    .accordion-button{
+        background-color: #F8F8F8;
+        color: #5F6368;
+        font-size: 1.2rem;
+    }
+    .accordion-body{
+        background-color: #FFFFFF;
+        font-size: 1.2rem;
+    }
+
+}
+
+/*.sec3{
+    @extend .section;
+    background-image: url("../../assets/section4-image.png");
+
+}
+.div3__img{
+    
+}
+.sec3__img{
+    margin-left: 596px;
+}
+
+.sec3__caja{
+    border-color: #E3E3E3;
+    border: 1px;
+    position: absolute;
+    margin: 144px 596px 258px 101px;
+    h4{
+        margin-left: 37px;
+        display: flex;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: $colorSecundario
+    }
+}
+
+.sec3__box1{
+    
+    background-color: #F8F8F8;
+    display: flex;
+    width: 669px;
+    height: 64px;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid #E3E3E3;
+}
+
+.sec3__divh4--img{
+    margin: 29.5px 37.5px 28.5px 619px;
+    display: flex;
+    position: absolute
+}
+
+
+.sec3__box2{
+    width: 669px;
+    height: 184px;
+    background-color: #FFFFFF;
+    position:absolute;
+    border: 1px solid #E3E3E3;
+    p{
+        @include robotoRegular16;
+        color: $colorSecundario;
+        display: flex;
+        margin: 39px 37px 40px 37px;
+    }
+}
+
+
+.sec3__box3{
+    background-color: #F8F8F8;
+    display: flex;
+    width: 669px;
+    height: 64px;
+    margin-top: 184px;
+    border: 1px solid #E3E3E3;
+    
+}
+
+.sec3__box4 {
+    background-color: #F8F8F8;
+    display: flex;
+    width: 669px;
+    height: 64px;
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid #E3E3E3;
+}
+*/

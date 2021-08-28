@@ -1,0 +1,100 @@
+.header{
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid $colorPrimario;
+    z-index: 1000;
+    &.header--scroll{
+        position: fixed;
+        top: 0;
+        background-color: $colorPrimario;
+        transition: all 0.5s ease 0s;
+        ul{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        a:hover{
+            color: orange;
+        }
+    }div{
+        display: flex;
+        align-items: center;
+        margin-left: 10.1rem;
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            flex: 1 1 auto;
+            ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 3.8rem 5.3rem 3.7rem 0rem;
+                    li{
+                        list-style: none;
+                        a{
+                            color: $colorSecundario;
+                            list-style: none;
+                            padding: 0 25px;
+                            font-family: 'Roboto', sans-serif;
+                            //font-weight: $font-regular;
+                            font-size: 1.2rem;
+                            text-decoration: none;
+                        }
+                        a:hover{
+                            color: $colorPrimario;
+                        }
+                    }
+            }
+        }
+    }
+}
+
+/*
+header{
+    position: absolute;
+    width: 100%;
+    border-bottom: 2px solid $colorPrimario;
+
+    .cont-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 33px;
+        padding-bottom: 33px;
+        background: coral;
+        background-image: url("../../assets/slider-1.png");
+        margin-left: 10.1rem;
+        margin-right: 10.1rem;
+        @include breakpoint("tablet"){
+            margin-left: 5rem;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: row;
+        font-family: 'Roboto', sans-serif;
+        li{
+            padding-left: 21px;
+            color: white;
+            list-style: none;
+        }
+        
+    }
+
+    .container{
+        margin-left: 101px;
+        margin-right: 101px;
+    }
+
+    /*hr{
+        position: relative;
+        border-color: $colorPrimario;
+        margin-top: 0px;
+    }
+    
+}
+*/
