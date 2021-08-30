@@ -1,5 +1,6 @@
 .sec4{
     @extend .section;
+    background: linear-gradient(90deg, 80%  #F2F4F1, 20% #DCE1DA);
     background-color: #F2F4F1;
     width: 1366px;
     height: 768px;
@@ -16,7 +17,7 @@
         letter-spacing: 0.22px;
         position: absolute;
         .span{
-            color: "#E0752F";
+            color: #E0752F;
         }
     }
 }

@@ -7,7 +7,7 @@ const Contact = () =>{
     return(
         <section className="sec4">
             
-            <svg className="sec2__svg--rec"></svg>
+            {/*<svg className="sec2__svg--rec"></svg>*/}
             <h2>Get in touch <span>We are hiring!</span> </h2>
             <img className="sec4__img" src={Globo} alt="Imagen contacto globos"/>
 

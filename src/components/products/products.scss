@@ -1,12 +1,11 @@
 .sec2{
     @extend .section;
-    background: #79e941;
-    position: absolute;
+    background: #F2F4F1;
 }
 
 .sec2__svg--rec{
     width: 398px;
-    height: 768px;
+    height: 100vh;
     background-color: #DCE1DA;
     margin-left: 968px;
     display: flex;
