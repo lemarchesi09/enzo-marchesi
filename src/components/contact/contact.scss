@@ -1,9 +1,6 @@
 .sec4{
     @extend .section;
-    background: linear-gradient(90deg, 80%  #F2F4F1, 20% #DCE1DA);
-    background-color: #F2F4F1;
-    width: 1366px;
-    height: 768px;
+    background: linear-gradient(to right,#F2F4F1 80%  , #DCE1DA 20% );
     display: flex;
     position: relative;
     h2{
@@ -41,6 +38,12 @@
         background-color: #F2F4F1;
         border: 0;
         border-bottom: 1px solid #DCE1DA;
+        &:focus{
+            background: none;
+        }
+    }
+    .form-button{
+        @include button;
     }
 }
 /*

@@ -15,8 +15,9 @@ function App() {
         <About/>
         <Products/>
         <Services/>
-        <Contact/>
+        <Contact/> 
         <Footer/>
+
     </div>
   );
 }

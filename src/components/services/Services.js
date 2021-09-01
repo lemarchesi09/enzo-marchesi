@@ -1,12 +1,9 @@
 import React from "react";
-import RuningImg from "../../assets/section4-image.png" 
-import IconUp from "../../assets/Icon feather-chevron-up.svg"
-import IconDown from "../../assets/Icon feather-chevron-down.svg"
 import {Accordion} from 'react-bootstrap'
 
 const Services = () => {
     return(
-        <section className="sec3">
+        <section id="services" className="sec3">
             <div className="sec3_box">
                 <Accordion defaultActiveKey="0" className="accordion">
                     <Accordion.Item eventKey="0">

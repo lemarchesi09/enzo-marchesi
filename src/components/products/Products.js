@@ -6,9 +6,9 @@ import IconoDer from "../../assets/Icon feather-arrow-right-circle.svg"
 
 const Products = () =>{
     return(
-        <section className="sec2">
+        <section id="products" className="sec2">
             
-            <svg className="sec2__svg--rec"></svg>
+            {/*<svg className="sec2__svg--rec"></svg>*/}
     
             <div className="sec2__cont">
                 <img className="sec2__img" src={ProductsImg} alt="Imagen seccion 2"/>
@@ -18,8 +18,8 @@ const Products = () =>{
                         <h2>Nemo Enim</h2>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         <div className="sec2__iconos">
-                            <a href="#"><img src={IconoIzq} alt="icono flecha izquierda"/></a>
-                            <a href="#"><img src={IconoDer} alt="icono flecha derecha"/></a>
+                            <a href="#home"><img src={IconoIzq} alt="icono flecha izquierda"/></a>
+                            <a href="#home"><img src={IconoDer} alt="icono flecha derecha"/></a>
                         </div>
                         
                     </div>
