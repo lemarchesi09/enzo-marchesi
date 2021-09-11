@@ -34,9 +34,9 @@ const Contact = () =>{
             setShowAlert(true);
         }else{
             
-            setError(false);
+            //setError(false);
             const response = await sendForm(dataForm);
-            console.log("response: ", response);
+            //console.log("response: ", response);
             if(response.status === 201){
                 setError(false);
                 setShowAlert(true);
@@ -68,7 +68,7 @@ const Contact = () =>{
             <h2>Get in touch <span>We are hiring!</span> </h2>
             <img className="sec4__img" src={Globo} alt="Imagen contacto globos"/>
 
-            <Form noValidate validated={validated} onSubmit={(e)=>handleSubmit(e)} className="form">
+            <Form noValidate validated={validated} onSubmit={(e)=>handleSubmit(e)} className="form col-5">
                 <Form.Group required className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Control onChange={(e)=> handleChange(e)} type="name" placeholder="Name" name="name" />
                 </Form.Group>

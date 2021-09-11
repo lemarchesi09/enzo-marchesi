@@ -11,7 +11,7 @@ const Products = () =>{
             {/*<svg className="sec2__svg--rec"></svg>*/}
     
             <div className="sec2__cont">
-                <img className="sec2__img" src={ProductsImg} alt="Imagen seccion 2"/>
+                {/*<img className="sec2__img" src={ProductsImg} alt="Imagen seccion 2"/>*/}
                 <div className="sec2__text--background">
                     <div className="sec2__text">
                         <p>Sed ut perspiciatis</p>
