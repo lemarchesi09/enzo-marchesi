@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL:'http://app-emmundose.herokuapp.com/api/',
+    baseURL:'https://app-emmundose.herokuapp.com/api/',
 })
 
 const sendForm = async (data)=>{
