@@ -6,11 +6,19 @@
 
 .sec2__cont{
     background:url("../../assets/section3-image.png");
-    height: 552px;
     background-repeat: no-repeat;
     padding-left: 495px;
     padding-top: 248px;
     max-width: 996px;
+    height: 552px;
+    position: absolute;
+
+}
+.carousel{
+    width: 471px;
+    height: 304px;
+    background-color: $primary;
+    
 }
 /*.sec2__svg--rec{
     width: 398px;
