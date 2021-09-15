@@ -14,12 +14,41 @@
     position: absolute;
 
 }
-.carousel{
+.car-prod{
     width: 471px;
     height: 304px;
     background-color: $primary;
-    
+    z-index: 1000;
+    .carousel-control-prev{
+        // background-image: url("../../assets/Icon\ feather-arrow-left-circle.svg");
+        // background-repeat: no-repeat;
+        
+    }
+    .car-text{
+        p{
+            @include robotoRegular16;
+            margin-top: 19.5px;
+            margin-block-end: 0px
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+            font-size: 39px;
+            letter-spacing: 0.55px;
+            margin-block-start: 0px;
+            margin-bottom: 0px;
+        }
+    }
+
 }
+a{
+
+}
+// .carousel{
+//     width: 471px;
+//     height: 304px;
+//     background-color: $primary;
+    
+// }
 /*.sec2__svg--rec{
     width: 398px;
     height: 100vh;
