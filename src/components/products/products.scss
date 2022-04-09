@@ -18,21 +18,24 @@
     width: 471px;
     height: 304px;
     background-color: $primary;
-    z-index: 1000;
-    .carousel-control-prev{
-        // background-image: url("../../assets/Icon\ feather-arrow-left-circle.svg");
-        // background-repeat: no-repeat;
-        
-    }
+    z-index: 1000;    
     .car-text{
+        position: relative;
+        left: 0%;
+        right: 0%;
+        text-align: left;
+        padding-top: 68px;
+        padding-left: 50px;
+        padding-right: 63px;
         p{
             @include robotoRegular16;
             margin-top: 19.5px;
-            margin-block-end: 0px
+            margin-block-end: 0px;
+            font-size: 1.2rem;
         }
-        h2{
+        h3{
             font-family: 'Poppins', sans-serif;
-            font-size: 39px;
+            font-size: 2.5rem;
             letter-spacing: 0.55px;
             margin-block-start: 0px;
             margin-bottom: 0px;
@@ -40,29 +43,10 @@
     }
 
 }
-a{
-
-}
-// .carousel{
-//     width: 471px;
-//     height: 304px;
-//     background-color: $primary;
-    
-// }
-/*.sec2__svg--rec{
-    width: 398px;
-    height: 100vh;
-    background-color: #DCE1DA;
-    margin-left: 968px;
-    display: flex;
-    position: absolute;
-
-}*/
 
 .sec2__img{
     width: 966px;
     height: 552px;
-    //margin: 112px 200px 104px;
     position: absolute;
 }
 
@@ -70,31 +54,28 @@ a{
     background-color: $colorPrimario;
     width: 471px;
     height: 304px;
-    //margin-top: 360px;
-    //margin-left: 695px;
+
     position: absolute;
 }
-/*
-.sec2__text{
-    color: white;
-    margin: 68px 49px 83.5px 50px;
-    p{
-        @include robotoRegular16;
-        margin-top: 19.5px;
-        margin-block-end: 0px
-    }
-    h2{
-        font-family: 'Poppins', sans-serif;
-        font-size: 39px;
-        letter-spacing: 0.55px;
-        margin-block-start: 0px;
-        margin-bottom: 0px;
+
+
+.carousel-control-prev{
+    margin-left: 282px;
+}
+.carousel-control-next-icon{
+    background-image: url("../../assets/Icon\ feather-arrow-right-circle.svg");
+
+}
+.carousel-control-prev-icon{
+    background-image: url("../../assets/Icon\ feather-arrow-left-circle.svg");
+    
+}
+
+.car-prod{
+    a{
+        position: unset;
+        align-items: end;
+        display: inline-flex;
     }
 }
 
-.sec2__iconos{
-    padding-left: 321px;
-    display: flex;
-    justify-content: space-between;
-}
-*/
